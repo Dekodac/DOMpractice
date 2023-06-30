@@ -1,0 +1,39 @@
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    gap: 15vmin;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+
+h1{
+    font-size: 10vmin;
+}
+
+.row{
+    width: 60vmin;
+    height: 20vmin;
+    display: flex;
+}
+
+.col{
+    width: 20vmin;
+    height: 20vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top{
+    border-top:2vmin solid black ;
+}
+
+.right{
+    border-right:2vmin solid black ;
+}
+div {
+    font-size: xxx-large;
+}
